@@ -29,8 +29,7 @@ def total_salary(path: str):
     except Exception as e:
         print(f"ERROR:File not read {e}")
         return (0, 0)
+    
 
-
-# test function
-total, average = total_salary("salary_file.txt")
+total, average = total_salary("Task_1/salary_file.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")

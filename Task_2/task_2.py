@@ -25,6 +25,6 @@ def get_cats_info(path: str):
         print(f"ERROR:File not read {e}")
         return []
 
-# test function
-cats_info = get_cats_info("cats_file.txt")
+# call function with file cats_file.txt
+cats_info = get_cats_info("Task_2/cats_file.txt")
 print(cats_info)
